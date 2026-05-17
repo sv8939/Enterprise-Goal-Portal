@@ -28,7 +28,7 @@ const fetchGoals = async () => {
 
    const res = await axios.get(
 
-      'http://localhost:5000/api/goals',
+      'https://enterprise-goal-backend.onrender.com/api/goals',
 
       {
          headers: {
@@ -64,7 +64,7 @@ const createGoal = async () => {
 
    await axios.post(
 
-      'http://localhost:5000/api/goals',
+      'https://enterprise-goal-backend.onrender.com/api/goals',
 
       {
 
@@ -114,7 +114,7 @@ const deleteGoal = async(id)=>{
 
    await axios.delete(
 
-      `http://localhost:5000/api/goals/${id}`,
+      `https://enterprise-goal-backend.onrender.com/api/goals/${id}`,
 
       {
          headers:{
@@ -146,7 +146,7 @@ const approveGoal = async(id)=>{
 
    await axios.put(
 
-      `http://localhost:5000/api/goals/${id}/approve`,
+      `https://enterprise-goal-backend.onrender.com/api/goals/${id}/approve`,
 
       {},
 
@@ -185,7 +185,7 @@ const updateCheckin = async(
 
    await axios.put(
 
-      `http://localhost:5000/api/goals/${id}/checkin`,
+      `https://enterprise-goal-backend.onrender.com/api/goals/${id}/checkin`,
 
       {
 

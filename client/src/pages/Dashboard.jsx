@@ -32,7 +32,7 @@ const fetchGoals = async () => {
 
    const res = await axios.get(
 
-      'http://localhost:5000/api/goals',
+      'https://enterprise-goal-backend.onrender.com/api/goals',
 
       {
          headers: {
@@ -64,7 +64,7 @@ const fetchLogs = async () => {
 
    const res = await axios.get(
 
-      'http://localhost:5000/api/goals/audit/logs',
+      'https://enterprise-goal-backend.onrender.com/api/goals/audit/logs',
 
       {
          headers: {

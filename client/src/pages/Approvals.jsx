@@ -33,7 +33,7 @@ const fetchGoals = async () => {
 
    const res = await axios.get(
 
-      'http://localhost:5000/api/goals',
+      'https://enterprise-goal-backend.onrender.com/api/goals',
 
       {
          headers: {
@@ -73,7 +73,7 @@ const approveGoal = async (id) => {
 
    await axios.put(
 
-      `http://localhost:5000/api/goals/${id}/approve`,
+      `https://enterprise-goal-backend.onrender.com/api/goals/${id}/approve`,
 
       {},
 
@@ -117,7 +117,7 @@ const rejectGoal = async (id) => {
 
    await axios.put(
 
-      `http://localhost:5000/api/goals/${id}/reject`,
+      `https://enterprise-goal-backend.onrender.com/api/goals/${id}/reject`,
 
       {},
 

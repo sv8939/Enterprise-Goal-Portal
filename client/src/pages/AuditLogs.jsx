@@ -13,7 +13,7 @@ fetchLogs();
 
 const fetchLogs=async()=>{
 const res=await axios.get(
-'http://localhost:5000/api/goals/audit/logs',
+'https://enterprise-goal-backend.onrender.com/api/goals/audit/logs',
 {
 headers:{
 authorization:localStorage.getItem('token')

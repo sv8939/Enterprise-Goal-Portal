@@ -18,7 +18,7 @@ MONGO_URI=your_mongodb_url
 JWT_SECRET=mysecretkey
 
 ## Register First User
-POST http://localhost:5000/api/auth/register
+POST https://enterprise-goal-backend.onrender.com/api/auth/register
 
 {
 "name":"Saurabh",
